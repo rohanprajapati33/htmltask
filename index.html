@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Layout</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        background-color: red;
+        padding: 20px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      section {
+        display: flex;
+      }
+      nav {
+        flex: 1;
+        background: #ccc;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        flex: 5;
+        background-color: #f1f1f1;
+        padding: 10px;
+        height: 500px;
+      }
+
+      footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3>Header</h3>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">SURAT</a></li>
+          <li><a href="#">GOA</a></li>
+          <li><a href="#">JUNAGADH</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h1>SURAT</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          fugiat alias voluptatem quos minus dolore ipsam reprehenderit, id
+          consequatur voluptates soluta sed odit laudantium, suscipit pariatur
+          reiciendis quidem modi cumque?
+        </p>
+      </article>
+    </section>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
